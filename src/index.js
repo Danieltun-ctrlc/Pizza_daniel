@@ -311,14 +311,14 @@ function Pizza({
   } else {
     nice = "heart outline";
   }
-  console.log(nice + "whatf the ff");
+  
 
   return (
     <div className={soldOut ? "pizza sold-out" : "pizza"}>
       <div className="pizza-info">
         <div className="pizza-header">
           <h3>{name}</h3>
-          <h3>{fav ? "okay" : "leepl"}</h3>
+          
           <span className={heartClass} onClick={onHeartClick}>
             ♥
           </span>
