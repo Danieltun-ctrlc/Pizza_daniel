@@ -291,15 +291,7 @@ function Footer() {
     </footer>
   );
 }
-function heartfilled(id, fac, setfac) {
-  alert(id);
-  pizzaData.forEach((pizza) => {
-    if (pizza.id === id) {
-      pizza.fav = pizza.fav ? false : true;
-      setfac(pizza.fav ? "heart filled" : "heart outline");
-    }
-  });
-}
+
 
 function Pizza({
   id,
