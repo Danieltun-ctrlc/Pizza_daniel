@@ -311,6 +311,7 @@ function Pizza({
   } else {
     nice = "heart outline";
   }
+  console.log(nice + "what");
   
 
   return (
