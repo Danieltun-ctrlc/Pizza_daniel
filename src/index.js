@@ -1,4 +1,4 @@
-import react, { use, useState } from "react";
+import react, { useState } from "react";
 import reactDOM from "react-dom/client";
 import "./index.css";
 const pizzaData = [
